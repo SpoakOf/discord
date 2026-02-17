@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Discord Replica</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- Server Sidebar -->
+    <div class="servers">
+      <div class="server">G</div>
+      <div class="server">A</div>
+      <div class="server">B</div>
+      <div class="server">+</div>
+    </div>
+
+    <!-- Channels Sidebar -->
+    <div class="channels">
+      <h3>My Server</h3>
+      <ul>
+        <li># general</li>
+        <li># gaming</li>
+        <li># projects</li>
+        <li># memes</li>
+      </ul>
+    </div>
+
+    <!-- Main Chat Area -->
+    <div class="chat-container">
+      <div class="chat-header"># general</div>
+
+      <div class="chat-messages" id="chatMessages">
+        <!-- Messages appear here -->
+      </div>
+
+      <div class="chat-input">
+        <input type="text" id="messageInput" placeholder="Message #general..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+
+    <!-- Members Sidebar -->
+    <div class="members">
+      <h3>Members</h3>
